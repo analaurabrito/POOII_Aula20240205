@@ -44,5 +44,20 @@ namespace Aula20240205Botao
 
             lblContador.Text = cont.ToString();
         }
+
+        private void bg3_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.Plum;
+        }
+
+        private void bg2_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.LightGreen;
+        }
+
+        private void bg1_Click(object sender, EventArgs e)
+        {
+            BackColor = Color.IndianRed;
+        }
     }
 }

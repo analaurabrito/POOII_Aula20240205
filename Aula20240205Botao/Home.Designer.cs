@@ -31,6 +31,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lblContador = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.bg1 = new System.Windows.Forms.Button();
+            this.bg2 = new System.Windows.Forms.Button();
+            this.bg3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -63,11 +66,44 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // bg1
+            // 
+            this.bg1.BackColor = System.Drawing.Color.IndianRed;
+            this.bg1.Location = new System.Drawing.Point(680, 93);
+            this.bg1.Name = "bg1";
+            this.bg1.Size = new System.Drawing.Size(56, 36);
+            this.bg1.TabIndex = 3;
+            this.bg1.UseVisualStyleBackColor = false;
+            this.bg1.Click += new System.EventHandler(this.bg1_Click);
+            // 
+            // bg2
+            // 
+            this.bg2.BackColor = System.Drawing.Color.LightGreen;
+            this.bg2.Location = new System.Drawing.Point(680, 144);
+            this.bg2.Name = "bg2";
+            this.bg2.Size = new System.Drawing.Size(55, 38);
+            this.bg2.TabIndex = 4;
+            this.bg2.UseVisualStyleBackColor = false;
+            this.bg2.Click += new System.EventHandler(this.bg2_Click);
+            // 
+            // bg3
+            // 
+            this.bg3.BackColor = System.Drawing.Color.Plum;
+            this.bg3.Location = new System.Drawing.Point(680, 199);
+            this.bg3.Name = "bg3";
+            this.bg3.Size = new System.Drawing.Size(53, 39);
+            this.bg3.TabIndex = 5;
+            this.bg3.UseVisualStyleBackColor = false;
+            this.bg3.Click += new System.EventHandler(this.bg3_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bg3);
+            this.Controls.Add(this.bg2);
+            this.Controls.Add(this.bg1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.lblContador);
             this.Controls.Add(this.button1);
@@ -84,6 +120,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblContador;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bg1;
+        private System.Windows.Forms.Button bg2;
+        private System.Windows.Forms.Button bg3;
     }
 }
 
