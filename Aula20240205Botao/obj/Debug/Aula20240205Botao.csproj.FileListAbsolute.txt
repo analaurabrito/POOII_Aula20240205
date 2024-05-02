@@ -1,0 +1,11 @@
+C:\DevC\Aula20240205Botao\bin\Debug\Aula20240205Botao.exe.config
+C:\DevC\Aula20240205Botao\bin\Debug\Aula20240205Botao.exe
+C:\DevC\Aula20240205Botao\bin\Debug\Aula20240205Botao.pdb
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.csproj.AssemblyReference.cache
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.csproj.SuggestedBindingRedirects.cache
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.Home.resources
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.Properties.Resources.resources
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.csproj.GenerateResource.cache
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.csproj.CoreCompileInputs.cache
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.exe
+C:\DevC\Aula20240205Botao\obj\Debug\Aula20240205Botao.pdb
